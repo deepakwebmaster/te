@@ -1,0 +1,25 @@
+{
+  "name": "node-repo",
+  "version": "0.0.0",
+  "description": "API",
+  "main": "app.js",
+  "author": "Deepak Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node app.js",
+    "test": "mocha --timeout 10000"
+  }
+}
